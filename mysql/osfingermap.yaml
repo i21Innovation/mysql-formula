@@ -6,7 +6,7 @@ Debian-12:
   serverpkg: mariadb-server
   service: mariadb
   clientpkg: mariadb-client
-  devpkg: libmariadbclient-dev
+  devpkg: default-libmysqlclient-dev
   config:
     append: |
       !includedir /etc/mysql/conf.d/
